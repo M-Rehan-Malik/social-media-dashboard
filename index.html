@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container light-theme">
+    <header>
+      <div class="heading-div">
+        <h1 class="heading">Social Media Dashboard</h1>
+        <p class="total-followers">Total Followers: 23,004</p>
+      </div>
+      <div class="toggle-div">
+        <p class="toggle-label">Dark Mode</p>
+        <button id="toggle-btn">
+          <div class="white-circle"></div>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="total-overview-section">
+        <div class="facebook-total-div">
+          <div class="border"></div>
+          <div class="account">
+            <img src="images/icon-facebook.svg" alt="facebook-icon" class="facebook-icon">
+            <p class="account-name">@nathanf</p>
+          </div>
+          <h1 class="followers-number">1987</h1>
+          <p class="followers-label">Followers</p>
+          <div class="followers-change">
+            <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+            <p class="followers-change-number">12 Today</p>
+          </div>
+        </div>
+        <div class="twitter-total-div">
+          <div class="border"></div>
+          <div class="account">
+            <img src="images/icon-twitter.svg" alt="twitter-icon" class="twitter-icon">
+            <p class="account-name">@nathanf</p>
+          </div>
+          <h1 class="followers-number">1044</h1>
+          <p class="followers-label">Followers</p>
+          <div class="followers-change">
+            <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+            <p class="followers-change-number">99 Today</p>
+          </div>
+        </div>
+        <div class="instagram-total-div">
+          <div class="border"></div>
+          <div class="account">
+            <img src="images/icon-instagram.svg" alt="instagram-icon" class="instagram-icon">
+            <p class="account-name">@realnathanf</p>
+          </div>
+          <h1 class="followers-number">11k</h1>
+          <p class="followers-label">Followers</p>
+          <div class="followers-change">
+            <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+            <p class="followers-change-number">1099 Today</p>
+          </div>
+        </div>
+        <div class="youtube-total-div">
+          <div class="border"></div>
+          <div class="account">
+            <img src="images/icon-youtube.svg" alt="youtube-icon" class="youtube-icon">
+            <p class="account-name">Nathan F.</p>
+          </div>
+          <h1 class="followers-number">8239</h1>
+          <p class="followers-label">Subscribers</p>
+          <div class="followers-change">
+            <img src="images/icon-down.svg" alt="icon-down" class="icon-down">
+            <p class="followers-change-number">144 Today</p>
+          </div>
+        </div>
+      </section>
+      <h2 class="today-overview-heading">Overview - Today</h2>
+      <section class="today-overview-section">
+        <div class="facebook-views-div">
+          <div>
+            <p class="head-label">Page Views</p>
+            <img src="images/icon-facebook.svg" alt="icon-facebook" class="icon-facebook">
+          </div>
+          <div class="content">
+            <h3 class="content-number">87</h3>
+            <div class="content-change">
+              <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+              <p class="content-change-label">3%</p>
+            </div>
+          </div>
+        </div>
+        <div class="facebook-likes-div">
+          <div>
+            <p class="head-label">Likes</p>
+            <img src="images/icon-facebook.svg" alt="icon-facebook" class="icon-facebook">
+          </div>
+          <div class="content">
+            <h3 class="content-number">52</h3>
+            <div class="content-change">
+              <img src="images/icon-down.svg" alt="icon-down" class="icon-down">
+              <p class="content-change-label">2%</p>
+            </div>
+          </div>
+        </div>
+        <div class="instagram-likes-div">
+          <div>
+            <p class="head-label">Likes</p>
+            <img src="images/icon-instagram.svg" alt="icon-instagram" class="icon-instagram">
+          </div>
+          <div class="content">
+            <h3 class="content-number">5462</h3>
+            <div class="content-change">
+              <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+              <p class="content-change-label">2257%</p>
+            </div>
+          </div>
+        </div>
+        <div class="instagram-views-div">
+          <div>
+            <p class="head-label">Profile Views</p>
+            <img src="images/icon-instagram.svg" alt="icon-instagram" class="icon-instagram">
+          </div>
+          <div class="content">
+            <h3 class="content-number">52k</h3>
+            <div class="content-change">
+              <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+              <p class="content-change-label">1375%</p>
+            </div>
+          </div>
+        </div>
+        <div class="twitter-retweets-div">
+          <div>
+            <p class="head-label">Retweets</p>
+            <img src="images/icon-twitter.svg" alt="icon-twitter" class="icon-twitter">
+          </div>
+          <div class="content">
+            <h3 class="content-number">117</h3>
+            <div class="content-change">
+              <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+              <p class="content-change-label">303%</p>
+            </div>
+          </div>
+        </div>
+        <div class="twitter-likes-div">
+          <div>
+            <p class="head-label">Likes</p>
+            <img src="images/icon-twitter.svg" alt="icon-twitter" class="icon-twitter">
+          </div>
+          <div class="content">
+            <h3 class="content-number">507</h3>
+            <div class="content-change">
+              <img src="images/icon-up.svg" alt="icon-up" class="icon-up">
+              <p class="content-change-label">553%</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtube-likes-div">
+          <div>
+            <p class="head-label">Likes</p>
+            <img src="images/icon-youtube.svg" alt="icon-youtube" class="icon-youtube">
+          </div>
+          <div class="content">
+            <h3 class="content-number">107</h3>
+            <div class="content-change">
+              <img src="images/icon-down.svg" alt="icon-down" class="icon-down">
+              <p class="content-change-label">19%</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtube-views-div">
+          <div>
+            <p class="head-label">Total Views</p>
+            <img src="images/icon-youtube.svg" alt="icon-youtube" class="icon-youtube">
+          </div>
+          <div class="content">
+            <h3 class="content-number">1407</h3>
+            <div class="content-change">
+              <img src="images/icon-down.svg" alt="icon-down" class="icon-down">
+              <p class="content-change-label">12%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
